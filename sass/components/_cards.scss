@@ -1,0 +1,11 @@
+.card {
+    background-color: $color-white;
+    padding: 1rem;
+    // box-shadow: 0 1rem 5rem rgba($color-dark, .1);
+
+    .card-img {
+        img {
+            width: 100%;
+        }
+    }
+}

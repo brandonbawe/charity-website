@@ -1,0 +1,29 @@
+.nav {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+
+    ul {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    &-item {
+        list-style-type: none;
+    }
+
+    &-link {
+        text-decoration: none;
+        color: $color-white;
+    }
+}
+
+.header-logo-box {
+    &_logo {
+        font-size: 20px;
+        color: $color-white;
+    }
+}

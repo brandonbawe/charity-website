@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .col-1-of-3 {
+        width: 30%;
+    }
+}

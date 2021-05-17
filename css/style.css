@@ -14,7 +14,8 @@ html {
 }
 
 body {
-  width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 body {
@@ -78,11 +79,12 @@ body {
 .btn,
 .btn:active,
 .btn:visited {
-  padding: 1rem 2rem;
-  border-radius: 12px;
+  border-radius: 10px;
   text-decoration: none;
   color: #fff;
   border: none;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
 }
 
 .btn:hover {
@@ -95,6 +97,14 @@ body {
 
 .btn-secondary {
   background-color: #FF7468;
+  transition: all .2s;
+}
+
+.btn-secondary:hover {
+  border: 1px solid #FF7468;
+  color: #FF7468;
+  background-color: transparent;
+  border-radius: 10px;
 }
 
 .btn-dark {
@@ -115,11 +125,6 @@ body {
   border: 2px solid #FFC107 !important;
   color: #FFC107 !important;
   padding: 0.9rem 2.5rem !important;
-}
-
-.btn-outline-secondary {
-  border: 2px solid #FF7468 !important;
-  color: #FF7468 !important;
 }
 
 .card {
@@ -365,7 +370,7 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
@@ -402,13 +407,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 148vh;
+  height: 90rem;
 }
 
 .homepage-hero-section .vector-bg {
   width: 100%;
   position: absolute;
-  top: 65rem;
+  bottom: -3rem;
 }
 
 .homepage-hero-section .vector-bg img {

@@ -20,7 +20,7 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .heading-primary {
@@ -83,7 +83,6 @@ body {
   text-decoration: none;
   color: #fff;
   border: none;
-  box-sizing: border-box;
   padding: 1rem 2rem;
 }
 
@@ -97,14 +96,13 @@ body {
 
 .btn-secondary {
   background-color: #FF7468;
+  border: 1px solid #FF7468 !important;
   transition: all .2s;
 }
 
 .btn-secondary:hover {
-  border: 1px solid #FF7468;
   color: #FF7468;
   background-color: transparent;
-  border-radius: 10px;
 }
 
 .btn-dark {

@@ -6,7 +6,6 @@
   text-decoration: none;
   color: $color-white;
   border: none;
-  box-sizing: border-box;
   padding: 1rem 2rem;
 }
 
@@ -21,13 +20,12 @@
 
   &-secondary {
     background-color: $color-secondary;
+    border: 1px solid $color-secondary !important;
     transition: all .2s;
 
     &:hover {
-    border: 1px solid $color-secondary; 
     color: $color-secondary;
     background-color: transparent;
-    border-radius: 10px;
    }
 
   }

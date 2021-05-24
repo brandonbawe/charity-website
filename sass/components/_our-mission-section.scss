@@ -1,0 +1,22 @@
+.our-mission-section {
+  width: 100%;
+  margin-top: 5rem;
+  background-color: rgba($color-light-gray, 0.47);
+  padding-top: 5rem;
+
+  &__header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mission-cards-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+    margin-bottom: -14rem;
+  }
+
+}

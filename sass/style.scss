@@ -6,11 +6,17 @@
 @import "./base/typography";
 @import "./base/utilities";
 
+
+@import "./components/about-contact-gallery-page-hero-section";
+@import "./components/about-section";
 @import "./components/buttons";
 @import "./components/cards";
 @import "./components/blog-post-card";
 @import "./components/mission-cards";
+@import "./components/our-mission-section";
 @import "./components/progress-bar";
+@import "./components/support-our-cause-section";
+@import "./components/where-other-need-help-section";
 
 @import "./layouts/footer";
 @import "./layouts/grid";
@@ -18,3 +24,4 @@
 @import "./layouts/navigation";
 
 @import "./pages/home";
+@import "./pages/about";

@@ -2,7 +2,6 @@
 .btn,
 .btn:active,
 .btn:visited {
-  border-radius: 10px;
   text-decoration: none;
   color: $color-white;
   border: none;
@@ -16,18 +15,23 @@
 .btn {
   &-primary {
     background-color: $color-primary;
+    border-radius: 10px;
+  }
+
+  &-secondary-rounded {
+    background-color: $color-secondary;
+    border: 1px solid $color-secondary !important;
+    border-radius: 10px;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $color-secondary;
+      background-color: transparent;
+    }
   }
 
   &-secondary {
     background-color: $color-secondary;
-    border: 1px solid $color-secondary !important;
-    transition: all .2s;
-
-    &:hover {
-    color: $color-secondary;
-    background-color: transparent;
-   }
-
   }
 
   &-dark {
@@ -45,15 +49,14 @@
   }
 
   &-outline-primary {
-        border: 2px solid $color-primary !important; 
-        color: $color-primary !important;
-        padding: 0.9rem 2.5rem !important;
+    border: 2px solid $color-primary !important;
+    color: $color-primary !important;
+    padding: 0.9rem 2.5rem !important;
+    border-radius: 10px;
+  }
 
-    }
-    
   // &-outline-secondary {
-  //       border: 2px solid $color-secondary !important; 
+  //       border: 2px solid $color-secondary !important;
   //       color: $color-secondary !important;
   //   }
 }
-

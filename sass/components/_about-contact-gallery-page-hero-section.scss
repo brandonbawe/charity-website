@@ -1,0 +1,16 @@
+.about-contact-gallery-page-hero-section {
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url('/images/hero-section-bg-pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    @include centralizeElement;
+
+    text-align: center;
+    color: $color-white;
+}

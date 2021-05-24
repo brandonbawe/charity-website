@@ -1,6 +1,11 @@
 .text-primary {
     color: $color-primary;
 }
+
+.text-primary-2 {
+    color: $color-primary-2;
+}
+
 .text-secondary {
     color: $color-secondary;
 }
@@ -29,4 +34,8 @@
 }
 .u-margin-bottom-large {
     margin-bottom: 4rem;
+}
+
+.u-margin-bottom-extra-large {
+    margin-bottom: 8rem;
 }

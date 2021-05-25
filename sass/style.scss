@@ -9,9 +9,10 @@
 
 @import "./components/about-contact-gallery-page-hero-section";
 @import "./components/about-section";
-@import "./components/buttons";
-@import "./components/cards";
 @import "./components/blog-post-card";
+@import "./components/buttons";
+@import "./components/campaign-cards";
+@import "./components/cards";
 @import "./components/mission-cards";
 @import "./components/our-mission-section";
 @import "./components/progress-bar";
@@ -23,5 +24,6 @@
 @import "./layouts/header";
 @import "./layouts/navigation";
 
-@import "./pages/home";
 @import "./pages/about";
+@import "./pages/contact";
+@import "./pages/home";

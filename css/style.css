@@ -87,7 +87,7 @@ body {
 .about-contact-gallery-page-hero-section {
   width: 100%;
   height: 30rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/hero-section-bg-pattern.png");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/hero-section-bg-pattern.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -391,7 +391,7 @@ body {
   width: 100%;
   height: 45rem;
   background-image: rgba(51, 51, 51, 0.8);
-  background-image: linear-gradient(to right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), url(/images/support-our-cause-bg.png);
+  background-image: linear-gradient(to right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), url(../images/support-our-cause-bg.png);
   text-align: center;
   margin-top: 5rem;
 }
@@ -730,7 +730,7 @@ header {
 .our-mission-section .bg-container {
   width: 100%;
   height: 25rem;
-  background-image: url(/images/about-page-mission-section-bg.png);
+  background-image: url(../images/about-page-mission-section-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
